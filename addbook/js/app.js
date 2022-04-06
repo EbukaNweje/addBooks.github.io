@@ -34,3 +34,39 @@ deletes.forEach((Deletes, index)=>{
       })       
 })
 
+const InputDis = document.querySelector("#input") 
+const Dis = document.querySelector("#Dis") 
+const Info = document.querySelector("#Info") 
+
+InputDis.addEventListener("click", ()=>{
+      const InputDisk = document.querySelector(".InputDis")
+      const OutPutDis = document.querySelector(".OutPutDis")
+      const InfoDis = document.querySelector(".InfoDis")
+
+      OutPutDis.style.display=  "none"
+      InfoDis.style.display=  "none"
+      InputDisk.style.display=  "block"
+})
+
+Dis.addEventListener("click", ()=>{
+      const InputDisk = document.querySelector(".InputDis")
+      const OutPutDis = document.querySelector(".OutPutDis")
+      const InfoDis = document.querySelector(".InfoDis")
+
+      InputDisk.style.display=  "none"
+      InfoDis.style.display=  "none"
+      OutPutDis.style.display=  "block"
+
+})
+
+Info.addEventListener("click", ()=>{
+      const InputDisk = document.querySelector(".InputDis")
+      const OutPutDis = document.querySelector(".OutPutDis")
+      const InfoDis = document.querySelector(".InfoDis")
+
+      InputDisk.style.display=  "none"
+      OutPutDis.style.display=  "none"
+      InfoDis.style.display=  "block"
+
+})
+
